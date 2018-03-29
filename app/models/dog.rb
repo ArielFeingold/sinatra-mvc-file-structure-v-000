@@ -7,7 +7,11 @@ attr_accessor :name, :breed, :age
     @name = name
     @breed = breed
     @age = age
+    @@all < self
+    binding.pry
   end
+
+
 
   # def all
   #   @@all
